@@ -11,5 +11,6 @@ public class Palabras {
         System.out.println("Introduzca palabra 3:");
         var palabra3 = sc.nextLine();
         System.out.println(palabra1 + " " + palabra2 + " " + palabra3);
+        sc.close();
     }
 }
